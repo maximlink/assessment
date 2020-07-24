@@ -32,12 +32,39 @@ BROWSER_BAR_ENABLE (YES/NO) - enable user to enter URL and navigate
 
 SCREEN_CAPTURE_MODE (1/2/3) - 1: no effect; 2: warns if screenshot taken; 3: locks app if screenshot taken and force quit required
 
-# AppConfig Template
+# AppConfig Template (Jamf Pro)
+
+```
+<plist version = "1.0">
+ <dict>
+  <key>URL</key>
+     <string>https://your_exam_site.edu/</string>
+  <key>SCREEN_RATIO</key>
+     <string>75</string>
+  <key>CAMERA_TOGGLE_ENABLE</key>
+     <string>NO</string>
+  <key>CAMERA_LETTERBOX_COLOR</key>
+     <string>#000000</string>
+  <key>SCREEN_HEADER_TITLE</key>
+     <string>Powered by Jamf</string>
+  <key>SCREEN_HEADER_MAIN_COLOR</key>
+     <string>#00274C</string>
+  <key>SCREEN_HEADER_SECONDARY_COLOR</key>
+     <string>#FFFFFF</string>
+  <key>BROWSER_BAR_ENABLE</key>
+     <string>NO</string>
+  <key>SCREEN_CAPTURE_MODE</key>
+     <string>1</string>
+ </dict>
+</plist>
+...
+
+# AppConfig Template (Jamf School)
 
 ```
 <dict>
  <key>URL</key>
-    <string>https:/your_exam_site.edu/</string>
+    <string>https://your_exam_site.edu/</string>
  <key>SCREEN_RATIO</key>
     <string>75</string>
  <key>CAMERA_TOGGLE_ENABLE</key>
