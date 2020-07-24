@@ -32,7 +32,7 @@ BROWSER_BAR_ENABLE (YES/NO) - enable user to enter URL and navigate
 
 SCREEN_CAPTURE_MODE (1/2/3) - 1: no effect; 2: warns if screenshot taken; 3: locks app if screenshot taken and force quit required
 
-# AppConfig Template (Jamf Pro)
+# AppConfig Template (Jamf School)
 
 ```
 <plist version = "1.0">
@@ -57,9 +57,9 @@ SCREEN_CAPTURE_MODE (1/2/3) - 1: no effect; 2: warns if screenshot taken; 3: loc
      <string>1</string>
  </dict>
 </plist>
-...
+```
 
-# AppConfig Template (Jamf School)
+# AppConfig Template (Jamf Pro)
 
 ```
 <dict>
