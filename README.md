@@ -10,7 +10,7 @@ Assessment app leverages the power of Jamf and managed app configuration. Config
 
 Assessment requires managed distribution and is only available as a Custom App via Apple School Manager or Apple Business Manager.
 
-Please e-mail assessment@maximlink.com to request access.  Include your ASM/ABM Organization Name and ID with the request.
+Please e-mail assessment@jamf.com to request access.  Include your ASM/ABM Organization Name and ID with the request.
 
 # Managed App Config
 
